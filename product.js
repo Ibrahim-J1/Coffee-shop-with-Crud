@@ -14,25 +14,25 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   products.push({
-    image: '/images/cafe glace.webp',
+    image: 'images/cafe glace.webp',
     name: 'Cafe Glace',
     price: 'Tk. 424',
   });
 
   products.push({
-    image: '/images/americano-removebg-preview.png',
+    image: 'images/americano-removebg-preview.png',
     name: 'Americano',
     price: 'Tk. 299',
   });
 
   products.push({
-    image: '/images/flat white.jpg',
+    image: 'images/flat white.jpg',
     name: 'Flat white',
     price: 'Tk. 356',
   });
 
   products.push({
-    image: '/images/moucha_.jpg',
+    image: 'images/moucha_.jpg',
     name: 'Moucha',
     price: 'Tk. 494',
   });
