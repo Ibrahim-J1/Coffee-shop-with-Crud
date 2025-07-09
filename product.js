@@ -43,11 +43,14 @@ document.addEventListener('DOMContentLoaded', function () {
     const box = document.createElement('div');
     box.classList.add('box');
 
+    // Check if the price already contains "Tk."
+    const formattedPrice = product.price.startsWith('Tk.') ? product.price : `Tk. ${product.price}`;
+
     box.innerHTML = `
       <img src="${product.image}" alt="${product.name}">
       <h3>${product.name}</h3>
       <div class="content">
-        <span>Tk. ${product.price}</span>
+        <span>${formattedPrice}</span>
         <a href="#">Add to cart</a>
       </div>
     `;
