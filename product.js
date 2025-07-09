@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
   // Clear existing content
   productContainer.innerHTML = '';
 
+  // Add products to the array
   products.push({
     image: 'images/mohaccino.jpg',
     name: 'Mohaccino',
@@ -51,8 +52,6 @@ document.addEventListener('DOMContentLoaded', function () {
       </div>
     `;
 
-
     productContainer.appendChild(box);
   });
-
 });
