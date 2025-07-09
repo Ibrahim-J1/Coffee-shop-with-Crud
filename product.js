@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
   productContainer.innerHTML = '';
 
   products.push({
-    image: '/images/mohaccino.jpg',
+    image: 'images/mohaccino.jpg',
     name: 'Mohaccino',
     price: 'Tk. 244',
   });
